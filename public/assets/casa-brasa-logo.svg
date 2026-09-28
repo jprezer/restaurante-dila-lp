@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120" role="img" aria-labelledby="title">
-  <title id="title">Casa Brasa</title>
-  <g fill="none" fill-rule="evenodd">
-    <circle cx="48" cy="60" r="35" fill="#F7F6F4"/>
-    <path fill="#1D1716" d="M49 31c4 13 17 18 17 31 0 12-8 23-20 23S27 77 27 66c0-9 6-15 13-22 0 8 3 12 7 14-1-10 1-19 2-27Zm-1 35c-5 5-8 9-8 13 0 5 3 8 8 8s8-4 8-9c0-5-4-8-8-12Z"/>
-    <text x="98" y="57" fill="#F7F6F4" font-family="Arial Black, Arial, sans-serif" font-size="35" font-weight="900" letter-spacing="1">CASA</text>
-    <text x="98" y="91" fill="#F7F6F4" font-family="Arial Black, Arial, sans-serif" font-size="35" font-weight="900" letter-spacing="1">BRASA</text>
-  </g>
-</svg>

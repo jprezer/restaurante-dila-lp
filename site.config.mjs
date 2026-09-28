@@ -1,169 +1,178 @@
 export default {
-  preset: "warm",
+  preset: "impact",
 
   brand: {
-    name: "Casa Brasa",
-    shortName: "CB",
-    tagline: "Fogo, tempo e mesa cheia.",
-    logo: "/assets/casa-brasa-logo.svg",
-    logoAlt: "Casa Brasa",
+    name: "Restaurante Dila",
+    shortName: "D",
+    tagline: "Comida caseira, servida com vontade.",
+    logo: "/assets/restaurante-dila-logo.jpg",
+    logoAlt: "Logo do Restaurante Dila",
   },
 
   seo: {
-    title: "Casa Brasa | Cozinha de fogo em Curitiba",
+    title: "Restaurante Dila | Buffet, marmitex e delivery em Araucária",
     description:
-      "Cozinha de fogo, ingredientes locais e uma mesa feita para ficar. Conheça a Casa Brasa, no Batel, em Curitiba.",
+      "Restaurante Dila em Capela Velha, Araucária: buffet de comida caseira, marmitex, delivery e sobremesas. Faça seu pedido pelo WhatsApp.",
     keywords: [
-      "restaurante em Curitiba",
-      "cozinha de fogo",
-      "restaurante no Batel",
-      "Casa Brasa",
+      "restaurante em Araucária",
+      "marmitex em Araucária",
+      "buffet Capela Velha",
+      "delivery de comida caseira",
+      "Restaurante Dila",
     ],
-    canonical: "https://casabrasa.example/",
+    canonical: "https://restaurante-dila-lp.vercel.app/",
     locale: "pt_BR",
     schemaType: "Restaurant",
   },
 
   announcement: {
-    label: "Batel · Curitiba",
-    actionLabel: "Reservas para esta noite",
+    label: "Capela Velha · Araucária, PR",
+    actionLabel: "Pedidos pelo WhatsApp",
   },
 
   contact: {
-    primaryLabel: "Reservar uma mesa",
-    footerPrimaryLabel: "Reservas",
-    primaryUrl: "#visite",
-    phone: "+55 41 99999-0000",
-    instagramLabel: "Conheça a casa",
+    primaryLabel: "Pedir no WhatsApp",
+    footerPrimaryLabel: "Fazer pedido",
+    primaryUrl: "https://wa.me/message/YI3DNLNSIOZWH1",
+    phone: "+554136437394",
+    instagramLabel: "Ver Instagram",
     socialLabel: "Instagram",
-    instagramUrl: "https://www.instagram.com/",
-    mapsUrl:
-      "https://www.google.com/maps/search/?api=1&query=Batel%2C+Curitiba%2C+PR",
+    instagramUrl: "https://www.instagram.com/restaurante.dila/",
+    mapsUrl: "https://maps.app.goo.gl/Re93DUhqkHGDRYEp9",
   },
 
   navigation: [
-    { label: "Experiência", href: "#servicos" },
-    { label: "À mesa", href: "#avaliacoes" },
-    { label: "Visite", href: "#visite" },
+    { label: "O Dila", href: "#servicos" },
+    { label: "Favoritos", href: "#momentos" },
+    { label: "Avaliações", href: "#avaliacoes" },
+    { label: "Endereço", href: "#visite" },
   ],
 
   hero: {
-    kicker: "Cozinha de fogo em Curitiba",
-    title: ["Fogo lento.", "Mesa", "cheia."],
+    kicker: "Comida caseira em Capela Velha",
+    title: ["Almoço", "com gosto", "de casa."],
     accentLine: 1,
     description:
-      "Ingredientes locais, brasa acesa e pratos feitos para atravessar a noite sem pressa.",
-    image: "/assets/casa-brasa-hero.jpg",
-    imageAlt: "Chef finalizando um prato entre as chamas da cozinha",
+      "Buffet, marmitex, delivery e sobremesas para deixar o seu almoço mais simples — e muito mais gostoso.",
+    image: "/assets/dila-buffet-hero.jpg",
+    imageAlt: "Buffet de saladas e acompanhamentos do Restaurante Dila",
     imagePosition: "58% center",
-    proofLabel: "Cozinha aberta",
-    proofValue: "Terça a domingo",
-    scrollLabel: "Descubra a casa",
+    proofLabel: "No Dila você encontra",
+    proofValue: "Buffet · Marmitex · Delivery",
+    scrollLabel: "Conheça o Dila",
   },
 
   statement: {
-    label: "Nossa mesa",
-    text: "A chama muda o ingrediente. O tempo transforma a refeição em encontro.",
-    accent: "encontro.",
+    label: "Almoço sem enrolação",
+    text: "No Dila, comida boa não precisa de cerimônia. Precisa de panela no fogo e tempero de verdade.",
+    accent: "tempero de verdade.",
   },
 
   services: {
-    title: "Da brasa para a mesa.",
+    title: "Comida que resolve o seu dia.",
     description:
-      "Uma cozinha direta, guiada pela estação e feita para dividir. Cada serviço tem o ritmo da chama e o cuidado de quem recebe.",
+      "Do almoço no restaurante ao pedido para casa, o Dila prepara uma refeição honesta, bem servida e cheia de sabor.",
     items: [
       {
-        title: "Menu de fogo",
+        title: "Buffet caseiro",
         description:
-          "Carnes, vegetais e acompanhamentos preparados na brasa e servidos no centro da mesa.",
-        detail: "Ingredientes locais · Safra do dia",
+          "Variedade para montar o prato do seu jeito, com saladas, acompanhamentos e aquele tempero de casa.",
+        detail: "Almoço no restaurante",
       },
       {
-        title: "Bar da casa",
+        title: "Marmitex",
         description:
-          "Drinks autorais, vinhos de pequenos produtores e sugestões para acompanhar cada prato.",
-        detail: "Coquetéis · Vinhos · Sem álcool",
+          "Uma refeição completa para levar, com praticidade para a rotina e o sabor que faz diferença na pausa do dia.",
+        detail: "Peça pelo WhatsApp",
       },
       {
-        title: "Mesa compartilhada",
+        title: "Delivery",
         description:
-          "Um salão acolhedor para jantares, encontros e celebrações sem cerimônia.",
-        detail: "Reservas · Grupos · Eventos",
+          "Seu almoço chega onde você estiver. Consulte as opções do dia e peça sem sair de casa ou do trabalho.",
+        detail: "Entrega na região",
+      },
+      {
+        title: "Clássicos da casa",
+        description:
+          "Feijoada, dobradinha, yakissoba, lasanha e outras receitas especiais que aparecem no cardápio.",
+        detail: "Acompanhe no Instagram",
       },
     ],
   },
 
-  // Para exibir uma galeria, adicione `gallery` seguindo o exemplo do README.
+  gallery: {
+    label: "Sabor servido de verdade",
+    title: "O buffet, os pratos e as receitas que dão vontade de voltar.",
+    items: [
+      {
+        image: "/assets/dila-buffet-hero.jpg",
+        alt: "Buffet de saladas frescas do Restaurante Dila",
+        caption: "Buffet caseiro",
+      },
+      {
+        image: "/assets/dila-dobradinha.jpg",
+        alt: "Dobradinha servida pelo Restaurante Dila",
+        caption: "Receitas especiais",
+      },
+      {
+        image: "/assets/dila-buffet-2.jpg",
+        alt: "Buffet de legumes e saladas do Restaurante Dila",
+        caption: "Todos os dias",
+      },
+    ],
+  },
 
   reviews: {
-    label: "Avaliações de demonstração",
-    title: "Uma noite para ficar na memória.",
-    rating: "4,9",
-    total: "Conteúdo fictício para personalização",
-    sourceLabel: "Ver localização no Google Maps",
+    label: "Avaliações no Google",
+    title: "Quem almoça aqui, volta.",
+    rating: "4,4",
+    total: "228 avaliações no Google",
+    sourceLabel: "Ver avaliações no Google Maps",
     items: [
       {
         quote:
-          "A comida chega no centro da mesa e muda o ritmo da noite. Tudo tem sabor de cuidado.",
-        author: "Cliente de exemplo",
-        score: "5/5",
-      },
-      {
-        quote:
-          "Ambiente bonito sem ser formal, serviço atento e uma seleção de vinhos muito bem pensada.",
-        author: "Cliente de exemplo",
-        score: "5/5",
-      },
-      {
-        quote:
-          "Voltaria só pelo pão na brasa, mas o jantar inteiro foi excelente.",
-        author: "Cliente de exemplo",
-        score: "5/5",
+          "Melhor feijoada da região, sabor e ingredientes maravilhosos, a entrega é rápida, sou cliente fiel.",
+        author: "Emerson Mendonça",
+        score: "5/5 no Google",
       },
     ],
   },
 
   location: {
-    label: "Venha para a mesa",
-    title: "No coração do Batel.",
+    label: "Vem almoçar com a gente",
+    title: "Pertinho de você, em Capela Velha.",
     description:
-      "A Casa Brasa é uma marca fictícia criada para demonstrar o white label. Substitua todos os dados antes de publicar.",
-    actionLabel: "Abrir região no Google Maps",
-    addressLines: ["Rua de Exemplo, 120", "Batel · Curitiba — PR"],
+      "Para comer no local, buscar uma marmitex ou pedir o almoço: o Restaurante Dila está na Rua Gralha-Azul, em Araucária.",
+    actionLabel: "Abrir no Google Maps",
+    addressLines: ["R. Gralha-Azul, 468", "Capela Velha · Araucária — PR"],
     address: {
-      street: "Rua de Exemplo, 120",
-      city: "Curitiba",
+      street: "R. Gralha-Azul, 468 - Capela Velha",
+      city: "Araucária",
       region: "PR",
-      postalCode: "80000-000",
+      postalCode: "83706-250",
       country: "BR",
     },
     hours: [
-      "Terça a quinta · 18h às 23h",
-      "Sexta e sábado · 18h à 00h",
-      "Domingo · 12h às 17h",
+      "Segunda a sábado · 11h às 14h",
+      "Consulte o Google Maps em feriados.",
     ],
     openingHours: [
       {
-        days: ["Tuesday", "Wednesday", "Thursday"],
-        opens: "18:00",
-        closes: "23:00",
+        days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        opens: "11:00",
+        closes: "14:00",
       },
-      {
-        days: ["Friday", "Saturday"],
-        opens: "18:00",
-        closes: "00:00",
-      },
-      { days: ["Sunday"], opens: "12:00", closes: "17:00" },
     ],
     mapEmbedUrl:
-      "https://www.google.com/maps?q=Batel,+Curitiba,+PR&output=embed",
+      "https://www.google.com/maps?q=Rua+Gralha-Azul,+468,+Capela+Velha,+Arauc%C3%A1ria,+PR&output=embed",
   },
 
   theme: {
-    accent: "oklch(70% 0.17 245)",
-    ink: "oklch(18% 0.025 30)",
-    paper: "oklch(97% 0.004 30)",
-    displayFont: null,
-    bodyFont: null,
+    accent: "oklch(63% 0.2 32)",
+    accentStrong: "oklch(72% 0.18 45)",
+    ink: "oklch(17% 0.025 50)",
+    paper: "oklch(96% 0.012 82)",
+    displayFont: "'Barlow Condensed', 'Arial Narrow', sans-serif",
+    bodyFont: "Manrope, Arial, sans-serif",
   },
 };

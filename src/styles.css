@@ -1177,3 +1177,287 @@ button {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Restaurante Dila: o visual toma emprestado a energia do letreiro da casa,
+   com leitura direta para quem procura almoço, não uma experiência gourmet. */
+body {
+  background: #20110d;
+}
+
+.announcement {
+  min-height: 2.65rem;
+  background: #b92722;
+  color: #fff5df;
+}
+
+.site-header {
+  min-height: 6.5rem;
+  background: color-mix(in srgb, #20110d 90%, transparent);
+  backdrop-filter: blur(12px);
+}
+
+.brand-lockup {
+  width: auto;
+  height: 4.5rem;
+  gap: 0.72rem;
+}
+
+.brand-lockup img {
+  width: 3.9rem;
+  height: 3.9rem;
+  border: 1px solid color-mix(in srgb, #fff5df 24%, transparent);
+  border-radius: 50%;
+  background: #000;
+  object-fit: cover;
+}
+
+.brand-name {
+  max-width: 7.5rem;
+  color: #fff5df;
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 0.86;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+}
+
+.hero {
+  min-height: max(43rem, calc(100svh - 2.65rem));
+  background: #20110d;
+}
+
+.hero-media {
+  filter: saturate(1.1) contrast(1.04);
+}
+
+.hero-shade {
+  background:
+    linear-gradient(90deg, rgba(32, 17, 13, 0.98) 0%, rgba(32, 17, 13, 0.9) 38%, rgba(32, 17, 13, 0.26) 78%),
+    linear-gradient(0deg, rgba(32, 17, 13, 0.82), transparent 58%);
+}
+
+.kicker {
+  color: #f3aa4a;
+}
+
+.hero h1,
+.statement h2,
+.section-heading h2,
+.reviews-heading h2,
+.visit h2 {
+  text-transform: none;
+}
+
+.hero h1 {
+  max-width: 38rem;
+  font-size: clamp(4.3rem, 10.4vw, 7.4rem);
+  line-height: 0.78;
+  letter-spacing: -0.045em;
+}
+
+.hero h1 .accent-line {
+  color: #f3aa4a;
+}
+
+.button-primary {
+  background: #d5362d;
+  color: #fff5df;
+  border-radius: 0.25rem;
+}
+
+.button-primary:hover {
+  background: #f04a35;
+}
+
+.header-cta {
+  border-color: #f3aa4a;
+}
+
+.header-cta:hover {
+  background: #f3aa4a;
+  color: #20110d;
+}
+
+.statement {
+  position: relative;
+  overflow: hidden;
+  background: #fff5df;
+}
+
+.statement::after {
+  content: "DILA";
+  position: absolute;
+  right: -0.04em;
+  bottom: -0.28em;
+  color: rgba(185, 39, 34, 0.08);
+  font-family: var(--font-display);
+  font-size: clamp(11rem, 29vw, 26rem);
+  font-weight: 900;
+  line-height: 0.72;
+  letter-spacing: -0.08em;
+  pointer-events: none;
+}
+
+.statement > * {
+  position: relative;
+  z-index: 1;
+}
+
+.statement h2 {
+  max-width: 54rem;
+  font-size: clamp(3.35rem, 7.2vw, 6.7rem);
+  line-height: 0.84;
+}
+
+.section-dark,
+.gallery {
+  background: #281510;
+}
+
+.section-heading h2 {
+  max-width: 38rem;
+  font-size: clamp(3.6rem, 6.7vw, 6.1rem);
+}
+
+.service-item {
+  min-height: 11.6rem;
+}
+
+.service-item:hover {
+  color: #f3aa4a;
+}
+
+.service-mark {
+  border-color: rgba(243, 170, 74, 0.5);
+  color: #f3aa4a;
+}
+
+.gallery-heading h2 {
+  margin: 0;
+  max-width: 49rem;
+  font-family: var(--font-display);
+  font-size: clamp(3.3rem, 6.5vw, 6.2rem);
+  font-weight: 800;
+  line-height: 0.86;
+  letter-spacing: -0.035em;
+  text-transform: none;
+}
+
+.gallery-item {
+  border-radius: 0;
+  border: 1px solid rgba(255, 245, 223, 0.15);
+}
+
+.gallery-item figcaption {
+  border-radius: 0.18rem;
+  background: #d5362d;
+  color: #fff5df;
+}
+
+.reviews {
+  background: #fff5df;
+}
+
+.reviews-heading h2 {
+  font-size: clamp(3.5rem, 7vw, 6.5rem);
+}
+
+.rating span,
+.review-featured p span,
+.review-list p span {
+  color: #c42f28;
+}
+
+.review-list:empty {
+  display: none;
+}
+
+.review-layout:has(.review-list:empty) {
+  grid-template-columns: 1fr;
+}
+
+.review-featured {
+  min-height: 21rem;
+  padding-left: 0;
+}
+
+.review-featured blockquote {
+  max-width: 58rem;
+  font-size: clamp(2.35rem, 4.6vw, 4.2rem);
+}
+
+.visit {
+  background: #c42f28;
+  color: #fff5df;
+}
+
+.visit .kicker,
+.button-inverse {
+  color: #fff5df;
+}
+
+.button-inverse,
+.map-frame a {
+  background: #20110d;
+}
+
+.map-frame iframe {
+  filter: saturate(0.85) contrast(1.04);
+}
+
+.footer-brand {
+  width: 4rem;
+}
+
+.footer-brand img {
+  width: 3.8rem;
+  height: 3.8rem;
+}
+
+@media (max-width: 760px) {
+  .brand-lockup {
+    height: 4rem;
+  }
+
+  .brand-lockup img {
+    width: 3.35rem;
+    height: 3.35rem;
+  }
+
+  .brand-name {
+    max-width: 5.6rem;
+    font-size: 1.12rem;
+  }
+
+  .hero {
+    min-height: 45rem;
+  }
+
+  .hero-shade {
+    background:
+      linear-gradient(90deg, rgba(32, 17, 13, 0.94) 0%, rgba(32, 17, 13, 0.6) 100%),
+      linear-gradient(0deg, rgba(32, 17, 13, 0.9), transparent 74%);
+  }
+
+  .hero h1 {
+    font-size: clamp(4rem, 20vw, 5.5rem);
+  }
+
+  .statement::after {
+    right: -0.1em;
+  }
+
+  .service-copy h3 {
+    text-transform: none;
+    font-size: clamp(2.4rem, 12vw, 3.3rem);
+  }
+
+  .gallery-heading {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-heading .section-label {
+    padding-top: 0;
+  }
+}

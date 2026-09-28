@@ -188,6 +188,7 @@ export function renderPage(config) {
     <header class="site-header" data-header>
       <a class="brand-lockup" href="#inicio" aria-label="${escapeHtml(config.brand.name)}, início">
         <img src="${safeUrl(config.brand.logo)}" alt="${escapeHtml(config.brand.logoAlt)}" width="310" height="164" />
+        <span class="brand-name">${escapeHtml(config.brand.name)}</span>
       </a>
       <nav class="desktop-nav" aria-label="Navegação principal">
         ${config.navigation
