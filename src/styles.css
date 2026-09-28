@@ -1203,12 +1203,13 @@ body {
 }
 
 .brand-lockup img {
-  width: 3.9rem;
-  height: 3.9rem;
-  border: 1px solid color-mix(in srgb, #fff5df 24%, transparent);
-  border-radius: 50%;
-  background: #000;
-  object-fit: cover;
+  width: 4.45rem;
+  height: 4.2rem;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  object-fit: contain;
+  object-position: left center;
 }
 
 .brand-name {
@@ -1254,6 +1255,10 @@ body {
   font-size: clamp(4.3rem, 10.4vw, 7.4rem);
   line-height: 0.78;
   letter-spacing: -0.045em;
+}
+
+.hero h1 span:first-child {
+  letter-spacing: 0.025em;
 }
 
 .hero h1 .accent-line {
@@ -1421,8 +1426,8 @@ body {
   }
 
   .brand-lockup img {
-    width: 3.35rem;
-    height: 3.35rem;
+    width: 3.75rem;
+    height: 3.6rem;
   }
 
   .brand-name {

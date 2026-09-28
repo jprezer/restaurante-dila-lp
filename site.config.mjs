@@ -5,7 +5,7 @@ export default {
     name: "Restaurante Dila",
     shortName: "D",
     tagline: "Comida caseira, servida com vontade.",
-    logo: "/assets/restaurante-dila-logo.jpg",
+    logo: "/assets/restaurante-dila-logo.png",
     logoAlt: "Logo do Restaurante Dila",
   },
 
