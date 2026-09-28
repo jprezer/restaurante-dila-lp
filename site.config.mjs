@@ -153,14 +153,14 @@ export default {
       country: "BR",
     },
     hours: [
-      "Segunda a sábado · 11h às 14h",
-      "Consulte o Google Maps em feriados.",
+      "Segunda a sábado · 11h às 14h30",
+      "Domingo · fechado",
     ],
     openingHours: [
       {
         days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
         opens: "11:00",
-        closes: "14:00",
+        closes: "14:30",
       },
     ],
     mapEmbedUrl:
